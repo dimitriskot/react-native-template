@@ -13,7 +13,7 @@ const config = {
   mode,
   entry: "./src/index.jsx",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve("dist"),
     filename: "main.[chunkhash:6].js"
   },
   resolve: {
